@@ -3,6 +3,12 @@ switch能否用string做参数？
 从java7版本开始，Switch实现对Sring的操作，主要是对他做了一次hashCode(),而且hashCode()正好返回的是int。
 编译器自动做了强制转换。
 
+在Java5以前，switch(expr)中，exper只能是byte，short，char，int类型。
+
+从Java5开始，java中引入了枚举类型，即enum类型。
+
+从Java7开始，exper还可以是String类型。
+
 switch应用：1.对具体的值进行判断
 			2.值的个数通常是固定的
 			  对于几个固定的值判断，建议使用switch语句，
