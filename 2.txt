@@ -1,0 +1,4 @@
+switch能否用string做参数？
+
+从java7版本开始，Switch实现对Sring的操作，主要是对他做了一次hashCode(),而且hashCode()正好返回的是int。
+编译器自动做了强制转换。
