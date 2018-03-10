@@ -2,3 +2,8 @@ switch能否用string做参数？
 
 从java7版本开始，Switch实现对Sring的操作，主要是对他做了一次hashCode(),而且hashCode()正好返回的是int。
 编译器自动做了强制转换。
+
+switch应用：1.对具体的值进行判断
+			2.值的个数通常是固定的
+			  对于几个固定的值判断，建议使用switch语句，
+			  因为switch语句会将具体的答案都加载进内存，效率相对高一点。
