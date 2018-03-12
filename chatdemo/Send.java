@@ -28,7 +28,7 @@ public class Send implements Runnable {
 				DatagramPacket dp = 
 						new DatagramPacket(buf,buf.length,InetAddress.getByName("192.168.1.110"),10001);
 				
-				//3.通过udp的socket服务将将数据包发送出去。使用send方法。
+				//通过udp的socket服务将将数据包发送出去。使用send方法。
 				ds.send(dp);
 				
 				if("bye".equals(line))
