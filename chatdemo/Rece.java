@@ -32,10 +32,9 @@ private DatagramSocket ds;
 			if(text.equals("bye")) {
 				System.out.println(ip+"ÍË³öÁÄÌìÊÒ...");
 			}
-			}
-		}catch(Exception e) {
-			
 		}
+		
+		}catch(Exception e) {}
 	}
 
 }

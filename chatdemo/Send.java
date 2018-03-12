@@ -35,9 +35,7 @@ public class Send implements Runnable {
 					break;
 			}
 			ds.close();
-		}catch (Exception e) {
-			
-		}
+		}catch (Exception e) {}
 	}
 
 	
